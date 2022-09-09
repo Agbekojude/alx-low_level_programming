@@ -1,14 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - file print
+ * main - print my low level 
  *
- * Return: report 
+ * Return: results
  */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
-
 	return (0);
 }
-
