@@ -1,8 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 
 /**
- * main - check if positive, zero or negative
+ * main -entry point
  *
  * Return: zero
  */
@@ -11,7 +12,7 @@ int main(void)
 {
 	int n;
 	srand(time(0));
-	n = rand ()-RAND_MAX /2
+	n = rand () - RAND_MAX /2
 	if (n > 0)
 	{
 		printf("%d is positive\n",n);
