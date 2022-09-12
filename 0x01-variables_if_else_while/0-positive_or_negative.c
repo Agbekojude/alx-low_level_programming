@@ -4,8 +4,8 @@
 
 /**
 * main - Entry point
- *
- * Return: Always 0 (success)
+*
+* Return: Always 0 (success)
 
 */
 
@@ -27,7 +27,7 @@ int main(void)
 
 				}
 
-				else if    (n == 0)
+				else if    (n = 0)
 
 				{
 
@@ -42,6 +42,5 @@ int main(void)
 					printf("%d is negative\n", n);
 
 				}
-
 					return (0);
 }
