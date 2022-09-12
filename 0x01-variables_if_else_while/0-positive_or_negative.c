@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
-* main - Entry point
+* main - check if positive, zero or negative
 *
 * Return: Always 0 (success)
 
@@ -27,7 +27,7 @@ int main(void)
 
 				}
 
-				else if    (n = 0)
+				else if    (n == 0)
 
 				{
 
@@ -42,5 +42,6 @@ int main(void)
 					printf("%d is negative\n", n);
 
 				}
-					return (0);
+					
+				return (0);
 }
