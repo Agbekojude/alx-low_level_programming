@@ -5,9 +5,11 @@
 /**
  * main - Checks last digit
  *
- * Return: 0
+ * Return: zero
  */
+
 int main(void)
+
 {
 	int n;
 	int 1;
