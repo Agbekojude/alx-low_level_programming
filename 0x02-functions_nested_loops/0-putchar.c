@@ -2,8 +2,6 @@
 
 /**
  * main - print out putchar
- *
- * Description: Uses the main header file
  * Return: Always 0
  */
 
