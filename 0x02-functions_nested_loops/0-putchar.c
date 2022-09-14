@@ -1,12 +1,20 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - Entry point 
+ * main - print out putchar
  *
- * Return: Always 0 (Success)
+ * Description: Uses the main header file
+ * Return: Always 0
  */
 int main(void)
 {
-	char name [20] = "putchar";
-	printf("%s\n", name);
+	_putchar('_');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('n');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+
 	return (0);
 }
