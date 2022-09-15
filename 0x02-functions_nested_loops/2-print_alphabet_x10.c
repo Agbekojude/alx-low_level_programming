@@ -6,7 +6,7 @@
  * Return: always 0 Success
  */
 
-void Print_alphabet_x10(void)
+void print_alphabet_x10(void)
 {
 	char alpha;
 	int index;
@@ -15,7 +15,7 @@ void Print_alphabet_x10(void)
 
 	for (index = 0; index < 10; index++)
 	{
-	       	while (aplha <= 'z')
+	       	while (alpha <= 'z')
 		{
 			_putchar((int) alpha);
 			alpha++;
