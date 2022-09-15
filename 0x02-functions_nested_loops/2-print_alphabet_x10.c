@@ -1,20 +1,26 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - Prints all the alphabets, a-z ten times 
+ * print_alphabet_x10 - prints all the alphabets, a-z 10 times
  *
- * Return: Always 0 success
+ * Return: always 0 Success
  */
 
-void print_alphabet_x10(void)
+void print_alphabet_x10(void);
 {
-	char c, i;
+	char alpha;
+	int index;
 
-	for (i = 0; i <= 9; i++)
-	{
-		_putchar (c);
-	{
-		_putchar ('\n');
-	}
+	alpha = 'a';
 
+	for (index = 0; index < 10; index++)
+	{ while (aplha <= 'z')
+		{
+			_ptchar((int) alpha);
+			alpha++;
+		}
+		
 	}
+	_putchar((char) 10);
+}
+
