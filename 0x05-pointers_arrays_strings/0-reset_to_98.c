@@ -1,14 +1,13 @@
 #include "main.h"
 
 /**
- * main - reset to 98 the value of an integer
+ * reset_to_98 - reset the value of an integer to 98
  * @n: parameter
  * Return: nothing
  */
 
 void reset_to_98(int *n)
 {
-	int  n
 
 	*n = 98;
 }
