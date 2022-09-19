@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - reset to 98 the value of an integer 
+ * main - reset to 98 the value of an integer
  * @n: parameter
  * Return: nothing
  */
