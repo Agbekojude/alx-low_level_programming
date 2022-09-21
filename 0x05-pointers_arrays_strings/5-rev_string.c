@@ -2,23 +2,38 @@
 
 /**
  * rev_string - reverves the string
- * @s: string will be changed
+ * @s: A pointer to an int that will be changed
+ *
+ * Returned: void
  */
 
 void rev_string(char *s)
 {
-	int l, i;
+	char *start_c, *end_c, c;
+	int i; count;
+	int lenght = 0;
 
-	char ch;
+	for (i = 0; s[i]; i++)
+	{
+		lenght ++;
+	}
+	count = lenght;
 
-	for (l = 0; s[l] != '\0'; l++)
+	start_c = s;
+	end_c = s;
 
-		for (i = 0; i < l / 2; i++)
-		{
-			ch = s[l];
-			s[l] = s[l - 1 - i];
-			s[l - 1 - i] = ch;
-		}
+	for (i = 0; i < count - 1; i++)
+	{
+		end_c++
+	}
 
+	for (i = 0; i < count / 2; i++)
+	{
+		c = *end_c;
+		*end_c = *start_c
+			*start_c = c;
 
+		start_c++;
+		end_c++;
+	}
 }
