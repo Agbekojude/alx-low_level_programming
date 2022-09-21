@@ -4,14 +4,14 @@
  * rev_string - reverse a string
  * @s: string
  *
- * Return: VOid 
+ * Return: VOid
  */
 
 void rev_string(char *s)
 {
 	int l, i;
 
-	char ch;
+	char c;
 
 	for (l = 0; s[l] != '\0'; l++)
 
@@ -19,6 +19,7 @@ void rev_string(char *s)
 		{
 			ch = s[l];
 			s[l] = s[l - 1 - i];
-			s[l - 1 - i] = ch;
+			s[l - 1 - i] = c;
 		}
+	return (0);
 }
