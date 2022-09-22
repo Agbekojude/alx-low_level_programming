@@ -4,13 +4,13 @@
  * _strncat - concatenate two strings
  * @ dest: string to be appended upon
  * @src: string to be completedat the end of dest
- * @n: integer parameter
+ * @n: integer parameter to compare index to
  * Return: returns new string
  */
 
 char *_strncat(char *dest, char *src, int n)
 {
-	int index = 0, est_len = 0;
+	int index = 0, dest_len = 0;
 
 	while (dest[index++])
 		dest_len++;
