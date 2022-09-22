@@ -3,9 +3,9 @@
 /**
  * _strncat - concatenate two strings
  * @ dest: string to be appended upon
- * @src: string to be completedat the end of dest
+ * @src: string to be completed at the end of dest
  * @n: integer parameter to compare index to
- * Return: returns new string
+ * Return: returns new concatenated string
  */
 
 char *_strncat(char *dest, char *src, int n)
