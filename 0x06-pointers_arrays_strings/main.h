@@ -13,7 +13,7 @@ void print_buffer(char *b, int size);
 int _strcmp(char *s1, char *s2);
 int _putchar(char c);
 char *_strcat(char *dest, char *src);
-char *_strncap(char *dest, char *src, int n);
+char *_strncat(char *dest, char *src, int n);
 char *_strncpy(char *dest, char *src, int n);
 char *_string_toupeR(char *);
 char *_cap_string(char *);
