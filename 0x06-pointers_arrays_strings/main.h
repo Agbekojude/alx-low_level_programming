@@ -15,7 +15,7 @@ int _putchar(char c);
 char *_strcat(char *dest, char *src);
 char *_strncat(char *dest, char *src, int n);
 char *_strncpy(char *dest, char *src, int n);
-char *_string_toupeR(char *);
+char *_string_toupper(char *);
 char *_cap_string(char *);
 char *leet(char *);
 char *_rot13(char *);
