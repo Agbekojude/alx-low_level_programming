@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strschr - string character
+ * _strchr - string character
  * @s: string given
  * @c: another character
  * Return: a string
