@@ -5,7 +5,7 @@
  * @dest: a destination memory
  * @src: a source memory
  * @n: number of bytes to be copied
- * Return: string copied from source 
+ * Return: string copied from source
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
