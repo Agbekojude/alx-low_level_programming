@@ -4,20 +4,20 @@
  * _strchr - string character
  * @s: string given
  * @c: another character
- * Return: a string
+ * Return: pointer to spot s with cor null
  */
 
 char *_strchr(char *s, char c)
 {
-	int a = 0, b;
+	int i;
 
-	while (s[a])
-		a++;
-			for (b = 0; b < a; b++)
-			{
-				if (c == s[b])
-					s += b;
-				return (s);
-			}
-	return ('\0');
+	for (i = 0; *(s +i); i++)
+	{
+		if (*(s + i) == c)
+			return (s + i);
+	}
+	if (*(s + i) ==c)
+		reuturn (s + i);
+
+	return (0);
 }
