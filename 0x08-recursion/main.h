@@ -12,5 +12,6 @@ int is_prime_number(int n);
 int is_palindrome(char *s);
 int wildcmp(char *s1, char *s2);
 int helperFunction(int num, int psqrt);
+int helperFunction(int num, int i);
 
 #endif /* MAIN_H */
