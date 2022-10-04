@@ -12,7 +12,7 @@
 
 int main(int argc, char *argv[])
 {
-	int a, b = 0, i, t;
+	int a, n = 0, i, t;
 	int c[5] = {25, 10, 5, 2, 1};
 
 	if (argc != 2)
@@ -22,6 +22,7 @@ int main(int argc, char *argv[])
 	}
 
 	a = atoi(argv[i]);
+
 	if (a <= 0)
 	{
 		puts("0");
@@ -33,11 +34,11 @@ int main(int argc, char *argv[])
 		{
 			t = a / c[i];
 			a -= t * c[i];
-			b += t;
+			n += t;
 			if (a == 0)
 				break;
 		}
 	}
-	printf("%d\n", b);
+	printf("%d\n", n);
 	return (0);
 }
