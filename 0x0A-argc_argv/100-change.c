@@ -2,8 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - Write a program that prints the minimum number of
- * coins to make change for an amount of money.
+ * main - prints minimum number of coins to make change for an amount of money.
  * @argc: the argument count
  * @argv: the argument vector
  *
@@ -12,7 +11,7 @@
 
 int main(int argc, char *argv[])
 {
-	int a, n = 0, i, t;
+	int a, b = 0, i, t;
 	int c[5] = {25, 10, 5, 2, 1};
 
 	if (argc != 2)
@@ -34,11 +33,11 @@ int main(int argc, char *argv[])
 		{
 			t = a / c[i];
 			a -= t * c[i];
-			n += t;
+			b += t;
 			if (a == 0)
 				break;
 		}
 	}
-	printf("%d\n", n);
+	printf("%d\n", b);
 	return (0);
 }
