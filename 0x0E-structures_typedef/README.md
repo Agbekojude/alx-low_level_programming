@@ -1,2 +1,1 @@
-0x0E-structures
-type
+this is structure typedef project done by Jude Kwaku Agbeko
