@@ -2,9 +2,10 @@
 #include <stdlib.h>
 
 /**
- * ch_free_grid - Function that frees a 2 dimensional array
+ * ch_free_grid - Function that frees a 2
+ *		dimensional array
  * @grid: Multi-dimensional array of char
- * @heightH height of the array
+ * @height: Height of the array
  * Return: No return
  */
 
